@@ -1,0 +1,12 @@
+Feature: Registo de Novo Utilizador
+  In order to star using the application
+  As a new user
+  I want to register 
+
+Scenario:Registo Inicial
+  Given I am on the "Registo Inicial"
+  When fill "user" with "UserDeTeste@teste.com"
+  And fill "password" with "12345"
+  And fill  "confirmPassword" with "12345"
+  And  I press "CreateUser"
+  Then I should see "Utilizador Criado"

@@ -1,0 +1,12 @@
+/usr/local/rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20151111-6066-rcxdag.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling gherkin_lexer_zh_tw.c
+linking shared-object gherkin_lexer_zh_tw.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 gherkin_lexer_zh_tw.so ./.gem.20151111-6066-wcwb3d
